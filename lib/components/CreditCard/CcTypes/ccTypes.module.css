@@ -1,0 +1,14 @@
+.root {
+    composes: flex from global;
+    composes: gap-2 from global;
+    composes: mt-4 from global;
+}
+
+.filterBy {
+    composes: mr-2 from global;
+}
+
+.availableIcon {
+    width: 2.25rem;
+    height: auto;
+}

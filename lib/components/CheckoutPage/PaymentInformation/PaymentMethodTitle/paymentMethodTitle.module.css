@@ -1,0 +1,5 @@
+.root {
+    composes: flex from global;
+    composes: items-center from global;
+    composes: gap-4 from global;
+}

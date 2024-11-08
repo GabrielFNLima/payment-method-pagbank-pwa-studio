@@ -1,0 +1,19 @@
+.root {
+}
+
+.label {
+    composes: label from '../Form/form.module.css';
+}
+
+.input {
+    composes: input from '../Form/form.module.css';
+}
+
+.select {
+    composes: select from '../Form/form.module.css';
+}
+
+.field {
+    composes: field from '../Form/form.module.css';
+    flex: 1;
+}

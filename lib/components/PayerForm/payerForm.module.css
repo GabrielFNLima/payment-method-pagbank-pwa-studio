@@ -1,0 +1,11 @@
+.label {
+    composes: label from '../Form/form.module.css';
+}
+
+.input {
+    composes: input from '../Form/form.module.css';
+}
+
+.field {
+    composes: field from '../Form/form.module.css';
+}

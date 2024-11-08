@@ -1,0 +1,6 @@
+.root {
+}
+
+.instruction {
+    composes: my-4 from global;
+}

@@ -1,0 +1,3 @@
+extend type Cart {
+    pagbank_paymentmagento_cc_details: String
+}

@@ -1,0 +1,12 @@
+.root {
+    composes: bg-gray-100 from global;
+    composes: border-subtle from global;
+    composes: border-b-2 from global;
+    composes: w-full from global;
+    composes: flex from global;
+    composes: justify-between from global;
+    composes: items-center from global;
+
+    color: #374151;
+    padding: 10px 20px;
+}
