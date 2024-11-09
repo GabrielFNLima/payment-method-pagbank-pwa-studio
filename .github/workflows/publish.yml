@@ -1,0 +1,37 @@
+name: Publish to NPM
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '18.x'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Cache Node.js modules
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install dependencies 🔧
+        run: npm i --legacy-peer-deps
+
+      - name: Verify node_modules after install
+        run: ls -la node_modules
+
+      - name: Publish package on NPM 📦
+        run: npm publish --access=public --legacy-peer-deps
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
