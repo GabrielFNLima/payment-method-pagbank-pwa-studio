@@ -55,4 +55,4 @@ Coming soon.
 
 Coming soon.
 
-For specific issues related to this integration, please [open an issue on GitHub](https://github.com/devgfnl/payment-method-pagbank-pwa-studio/issues) or visit the [wiki for common errors](https://github.com/devgfnl/payment-method-pagbank-pwa-studio/wiki).
+For specific issues related to this integration, please [open an issue on GitHub](https://github.com/GabrielFNLima/payment-method-pagbank-pwa-studio/issues) or visit the [wiki for common errors](https://github.com/GabrielFNLima/payment-method-pagbank-pwa-studio/wiki).

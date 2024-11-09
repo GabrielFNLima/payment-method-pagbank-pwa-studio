@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GabrielFNLima/payment-method-pagbank-magento-graphql.git"
+    "url": "git+https://github.com/GabrielFNLima/payment-method-pagbank-pwa-studio.git"
   },
   "bugs": {
-    "url": "https://github.com/GabrielFNLima/payment-method-pagbank-magento-graphql/issues"
+    "url": "https://github.com/GabrielFNLima/payment-method-pagbank-pwa-studio/issues"
   },
-  "homepage": "https://github.com/GabrielFNLima/payment-method-pagbank-magento-graphql#readme",
+  "homepage": "https://github.com/GabrielFNLima/payment-method-pagbank-pwa-studio#readme",
   "scripts": {
     "format": "prettier --ignore-path .gitignore \"lib/**/*.+(ts|js|tsx)\" --write",
     "lint": "eslint --ignore-path .gitignore 'lib/**/{*.js,*.ts,*.tsx,package.json}'",
